@@ -62,9 +62,11 @@
     <Compile Include="Assets\Script\ScriptFinal\VehicleCamera.cs" />
     <Compile Include="Assets\Script\ScriptFinal\VehicleDamage.cs" />
     <Compile Include="Assets\Script\CameraFX.cs" />
+    <Compile Include="Assets\ManagerTutorial.cs" />
     <Compile Include="Assets\Script\Globals.cs" />
     <Compile Include="Assets\Script\ScriptFinal\SelecionCarro.cs" />
     <Compile Include="Assets\Script\Car_audio.cs" />
+    <Compile Include="Assets\Modelos\ScritableObjet\Tutorial.cs" />
     <Compile Include="Assets\Script\Waypoint.cs" />
     <Compile Include="Assets\Script\Car_Controller2.cs" />
     <Compile Include="Assets\SeleccionTaller.cs" />
@@ -85,8 +87,6 @@
     <Compile Include="Assets\Script\ActivaInfo.cs" />
     <Compile Include="Assets\Script\ScriptFinal\ManegarEscena.cs" />
     <Compile Include="Assets\Script\ScriptFinal\PostCam.cs" />
-    <Compile Include="Assets\ManagerTutorial.cs" />
-    <Compile Include="Assets\Modelos\ScritableObjet\Tutorial.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shaders\Vortex.shader" />
@@ -339,6 +339,12 @@
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>Library\PackageCache\com.unity.analytics@3.5.3\Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>

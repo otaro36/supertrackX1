@@ -14,4 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/escenas cargadas/ScenasCargadas/DragRaceIndi.unity
     guid: cf840502d8e72814a8117efedfc237c2
+  - enabled: 1
+    path: Assets/Scenes/escenas cargadas/DragRacepista.unity
+    guid: 83519251026b2f149b97948cd3e8c665
+  - enabled: 1
+    path: Assets/Scenes/escenas cargadas/DragRace.unity
+    guid: bb221d8f0faa2e7408175826706b8b7f
+  - enabled: 1
+    path: Assets/Scenes/escenas cargadas/DragRaceMulti.unity
+    guid: c793f56012f87f14c97846b65d7dd1c6
   m_configObjects: {}

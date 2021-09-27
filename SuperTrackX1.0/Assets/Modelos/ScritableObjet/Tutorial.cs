@@ -6,5 +6,6 @@ public class Tutorial : ScriptableObject
     
 {
     public int q;
+    public int n;
 
 }

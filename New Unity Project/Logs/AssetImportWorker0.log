@@ -1,0 +1,495 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.13f1 (71691879b7f5) revision 7432472'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1237; Version 2009; 64bit' Language: 'es' Physical Memory: 16309 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/repositorios/Git/supertrackX1/New Unity Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64524
+Successfully changed project path to: D:/repositorios/Git/supertrackX1/New Unity Project
+D:/repositorios/Git/supertrackX1/New Unity Project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 33.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.13f1 (71691879b7f5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/repositorios/Git/supertrackX1/New Unity Project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 SUPER (ID=0x2187)
+    Vendor:   
+    VRAM:     3955 MB
+    Driver:   30.0.14.7212
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002424 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 33.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.423 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003171 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.379 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1390 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.9 MB.
+System memory in use after: 64.9 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1823.
+Total: 2.583700 ms (FindLiveObjects: 0.201500 ms CreateObjectMapping: 0.033500 ms MarkObjects: 2.251900 ms  DeleteObjects: 0.094900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/96 General Library (Free Sample)/Samples/DOORAntq_InsJ_Door_Church_Closing_01-01.wav
+  artifactKey: Guid(381258cd90e88984fb8ba31a8dd96fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/DOORAntq_InsJ_Door_Church_Closing_01-01.wav using Guid(381258cd90e88984fb8ba31a8dd96fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1406eb434bf5ac4d4f5604d46b85856') in 0.162117 seconds 
+  Import took 0.165237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/CREAMnstr_InsJ_Monster_Growling_Male_09-01.wav
+  artifactKey: Guid(f0434bb09b6c86f48945c21555472d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/CREAMnstr_InsJ_Monster_Growling_Male_09-01.wav using Guid(f0434bb09b6c86f48945c21555472d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a451e7a235cd135dd45eb94eb39a2401') in 0.024780 seconds 
+  Import took 0.027278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/CHAINImpt_InsJ_Chains_Metal_Dropping_Close_01-01.wav
+  artifactKey: Guid(f2278fecc222f14459622deee93a4eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/CHAINImpt_InsJ_Chains_Metal_Dropping_Close_01-01.wav using Guid(f2278fecc222f14459622deee93a4eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3056ae248c66f00be74196227d8cbe58') in 0.022786 seconds 
+  Import took 0.025207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/RAIN_InsJ_Ambience_Rain_Light_01_LOOP.wav
+  artifactKey: Guid(422a01e4a23540840b028a59d816ff20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/RAIN_InsJ_Ambience_Rain_Light_01_LOOP.wav using Guid(422a01e4a23540840b028a59d816ff20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587d0723240e492c83e38c3a1d1714f3') in 0.016761 seconds 
+  Import took 0.019242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/TOYMech_InsJ_Toy_Plastic-Train_Moving_Close_Short_01-01.wav
+  artifactKey: Guid(88bd6a6606722514598208858f856c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/TOYMech_InsJ_Toy_Plastic-Train_Moving_Close_Short_01-01.wav using Guid(88bd6a6606722514598208858f856c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4f37835a81d8fd933aa2c3d0a40884') in 0.016518 seconds 
+  Import took 0.019441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/FEETHmn_InsJ_Footsteps_Ice_Walking_Trainers_02_Single-09.wav
+  artifactKey: Guid(be78ebb17a9ff2b47b0964b3046c1fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/FEETHmn_InsJ_Footsteps_Ice_Walking_Trainers_02_Single-09.wav using Guid(be78ebb17a9ff2b47b0964b3046c1fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a979e9b19fad7da3c55c19f17b9d770') in 0.013205 seconds 
+  Import took 0.015666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/AMBTech_InsJ_Ambience_Underground-Base_01-01_LOOP.wav
+  artifactKey: Guid(56e33d1cbc81cfd44a9505450240fe2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/AMBTech_InsJ_Ambience_Underground-Base_01-01_LOOP.wav using Guid(56e33d1cbc81cfd44a9505450240fe2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3fe1542ccfe676898720a912f0266cd') in 0.016377 seconds 
+  Import took 0.018918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/FRWKComr_InsJ_Fireworks_Multi_Close_01-02-Crackle.wav
+  artifactKey: Guid(968908658fb3da642ae9ad9b54b4c4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/FRWKComr_InsJ_Fireworks_Multi_Close_01-02-Crackle.wav using Guid(968908658fb3da642ae9ad9b54b4c4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440327cdc045fb71d82289afca6a7e45') in 0.013629 seconds 
+  Import took 0.016202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/MOTRElec_InsJ_Motor_Small_Long_Close_01-01.wav
+  artifactKey: Guid(098ea6bba65dcc946bd34d5e107bb288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/MOTRElec_InsJ_Motor_Small_Long_Close_01-01.wav using Guid(098ea6bba65dcc946bd34d5e107bb288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59abc493b9f870e0318255b2135abd5f') in 0.015812 seconds 
+  Import took 0.018510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/TOOLPowr_InsJ_Lawn-Mower-01_Idling_Close_01-01.wav
+  artifactKey: Guid(3f046dadc8691cf469798a69f125f0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/TOOLPowr_InsJ_Lawn-Mower-01_Idling_Close_01-01.wav using Guid(3f046dadc8691cf469798a69f125f0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2998d0f23d730b1671d53521a8377950') in 0.013043 seconds 
+  Import took 0.016666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/FARTReal_InsJ_Farting_Diarrhoea_Short_01-01.wav
+  artifactKey: Guid(b8415aaf28c324b458de185f0f82871d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/FARTReal_InsJ_Farting_Diarrhoea_Short_01-01.wav using Guid(b8415aaf28c324b458de185f0f82871d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec4612c8a2dabf82882d667ecc01154') in 0.015740 seconds 
+  Import took 0.018270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000630 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/FEETHmn_InsJ_Footsteps_Glass_Running_Trainers_01-01_Single-01.wav
+  artifactKey: Guid(ccdc11c8aca43b447943d03982ddc44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/FEETHmn_InsJ_Footsteps_Glass_Running_Trainers_01-01_Single-01.wav using Guid(ccdc11c8aca43b447943d03982ddc44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ae7211697b84d1155cff7da15a9d9e') in 0.011935 seconds 
+  Import took 0.014567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/WHSH_InsJ_Whooshing_Bamboo_01-01.wav
+  artifactKey: Guid(df6d6e6970d3ebc40a5ecbe1e1f21c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/WHSH_InsJ_Whooshing_Bamboo_01-01.wav using Guid(df6d6e6970d3ebc40a5ecbe1e1f21c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99d2b8a1885a8866c26fb050447458a') in 0.013004 seconds 
+  Import took 0.015778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/WOODFric_InsJ_Creaking_Wood-Floor_Short_01-01.wav
+  artifactKey: Guid(2ad5a140e762d82459807547aa5bc93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/WOODFric_InsJ_Creaking_Wood-Floor_Short_01-01.wav using Guid(2ad5a140e762d82459807547aa5bc93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d33773735c8975bdd28967313b30e45') in 0.012091 seconds 
+  Import took 0.014474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/CLOCKTick_InsJ_Clock-01_Ticking_Single-01.wav
+  artifactKey: Guid(2796991c2d63adf4c9c3d417a318aeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/CLOCKTick_InsJ_Clock-01_Ticking_Single-01.wav using Guid(2796991c2d63adf4c9c3d417a318aeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dabebef620829b68712bf54042e42308') in 0.013817 seconds 
+  Import took 0.016256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/UIGlitch_InsJ_Glitching_Digital_Data-Corruption_01-01_LOOP.wav
+  artifactKey: Guid(fa5bfe488e476b847984af12128c70e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/UIGlitch_InsJ_Glitching_Digital_Data-Corruption_01-01_LOOP.wav using Guid(fa5bfe488e476b847984af12128c70e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077d114344f2b5cc04a91c0b8bf137d9') in 0.013446 seconds 
+  Import took 0.015900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/FEETHmn_InsJ_Footsteps_Gravel_Jogging_Trainers_01-01_Single-02.wav
+  artifactKey: Guid(dd3a9bf23f1906c41820c9956b72b01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/FEETHmn_InsJ_Footsteps_Gravel_Jogging_Trainers_01-01_Single-02.wav using Guid(dd3a9bf23f1906c41820c9956b72b01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db219303157e5b6caf26498c65787cc8') in 0.012849 seconds 
+  Import took 0.015222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/CMPTKey_InsJ_Mouse_Clicking_Single_01-01.wav
+  artifactKey: Guid(c65f5a28baa168d4bbcb020e7c0e345d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/CMPTKey_InsJ_Mouse_Clicking_Single_01-01.wav using Guid(c65f5a28baa168d4bbcb020e7c0e345d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dabaa4c88be27ea65166c4630cbb640b') in 0.010442 seconds 
+  Import took 0.012995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/FIREBrst_InsJ_Flamethrower_Short_01-01_WET.wav
+  artifactKey: Guid(9558776529dbab5418c79032647f36ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/FIREBrst_InsJ_Flamethrower_Short_01-01_WET.wav using Guid(9558776529dbab5418c79032647f36ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184a709c044921314b2a0ca98d65e7f7') in 0.011033 seconds 
+  Import took 0.013537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/AEROHeli_InsJ_Helicopter_Flyby_Distant_02.wav
+  artifactKey: Guid(523fc9761fcbb7a47b2e382687e4538e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/AEROHeli_InsJ_Helicopter_Flyby_Distant_02.wav using Guid(523fc9761fcbb7a47b2e382687e4538e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7fc45415786e569f1e24c8792553540') in 0.012307 seconds 
+  Import took 0.014680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/COMCam_InsJ_Camera-01_Auto-Focus_01-01.wav
+  artifactKey: Guid(f3a17ee7ed955814d9bd12acfe38d181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/COMCam_InsJ_Camera-01_Auto-Focus_01-01.wav using Guid(f3a17ee7ed955814d9bd12acfe38d181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440d362bb4c5988c20c3c770b0682270') in 0.010291 seconds 
+  Import took 0.012658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/AMBBird_InsJ_Ambience_Birds_Dawn-Chorus_01-01_LOOP.wav
+  artifactKey: Guid(e9d1c843e495c2c4eb9ae7b6fb15eadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/AMBBird_InsJ_Ambience_Birds_Dawn-Chorus_01-01_LOOP.wav using Guid(e9d1c843e495c2c4eb9ae7b6fb15eadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abed0c3f04b8560057f8ed4b7ff72fd5') in 0.011268 seconds 
+  Import took 0.013628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/AMBUrbn_InsJ_Ambience_Busy-Street_Guildford_01-01_LOOP.wav
+  artifactKey: Guid(166f3c7373d540a46bc3712d724bd8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/AMBUrbn_InsJ_Ambience_Busy-Street_Guildford_01-01_LOOP.wav using Guid(166f3c7373d540a46bc3712d724bd8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2fac75a43e48c1505eabbe93b4f7d4') in 0.010492 seconds 
+  Import took 0.012857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/ANMLCat_InsJ_Cat_Purring_Female_02-01.wav
+  artifactKey: Guid(c65752e34ab58f5468b317fe21cb5f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/ANMLCat_InsJ_Cat_Purring_Female_02-01.wav using Guid(c65752e34ab58f5468b317fe21cb5f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98541981ea34141d7db860ec4776e77') in 0.010827 seconds 
+  Import took 0.013154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/ANMLPrim_InsJ_Gorillas_Vocalizing_Single_01-01.wav
+  artifactKey: Guid(e886b502824097d438107b45e0e6682b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/ANMLPrim_InsJ_Gorillas_Vocalizing_Single_01-01.wav using Guid(e886b502824097d438107b45e0e6682b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b61ba3d48765c6b86c4a3dfa1a154f') in 0.011614 seconds 
+  Import took 0.014677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/UIAlert_InsJ_UI_Mechanical_Error_01_FX.wav
+  artifactKey: Guid(49935d2469955e347b4f657da6f18e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/UIAlert_InsJ_UI_Mechanical_Error_01_FX.wav using Guid(49935d2469955e347b4f657da6f18e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d09d69d80e12f4ffc7fb40acd042db') in 0.011486 seconds 
+  Import took 0.014172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/VEHCar_1990s_InsJ_Car_Nissan-Serena_Button-01_01.wav
+  artifactKey: Guid(dfd742b227924bb4cb7c133c3d94c6da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/VEHCar_1990s_InsJ_Car_Nissan-Serena_Button-01_01.wav using Guid(dfd742b227924bb4cb7c133c3d94c6da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e702720527461766248e4e0919b70a') in 0.010509 seconds 
+  Import took 0.012801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/OBJCoin_InsJ_Coin_Spending_01.wav
+  artifactKey: Guid(0e89b476d4715fd42935e9900eedb033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/OBJCoin_InsJ_Coin_Spending_01.wav using Guid(0e89b476d4715fd42935e9900eedb033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa74d91f1d2b2a445f18f2398ea1410e') in 0.011107 seconds 
+  Import took 0.013411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/VEHBike_InsJ_Bike_Bell-Ding-01_Close_Single_01-01.wav
+  artifactKey: Guid(5a96e2c290c5f3941bd4b25879ef7e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/VEHBike_InsJ_Bike_Bell-Ding-01_Close_Single_01-01.wav using Guid(5a96e2c290c5f3941bd4b25879ef7e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ac88756fdd1f9a44973bd4dfea95ac') in 0.010750 seconds 
+  Import took 0.013133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/DOORWood_InsJ_Door_Wooden_Closing_03-01.wav
+  artifactKey: Guid(a68d77d1ab4d8ad48bfc7ea06d637e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/DOORWood_InsJ_Door_Wooden_Closing_03-01.wav using Guid(a68d77d1ab4d8ad48bfc7ea06d637e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a30bb90173f372ee3ea5b47bfcb1e8') in 0.010205 seconds 
+  Import took 0.012760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/CERMImpt_InsJ_Bricks_Impact_Single_01-02.wav
+  artifactKey: Guid(5454c8e9bd09fb54aab5081d6c950770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/CERMImpt_InsJ_Bricks_Impact_Single_01-02.wav using Guid(5454c8e9bd09fb54aab5081d6c950770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3376efb6500b127793b7c1e359bc782') in 0.010824 seconds 
+  Import took 0.013252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/UIClick_InsJ_UI_Mechanical_Move_01.wav
+  artifactKey: Guid(cd092ad13de41c24c9d3838981942e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/UIClick_InsJ_UI_Mechanical_Move_01.wav using Guid(cd092ad13de41c24c9d3838981942e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c679da5259f763abb970f30550032af') in 0.010057 seconds 
+  Import took 0.012507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/FEETHmn_InsJ_Footsteps_Snow_Walking_Trainers_02-01_Single-01.wav
+  artifactKey: Guid(afb86ce3664b09f4dbba2596781b3ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/FEETHmn_InsJ_Footsteps_Snow_Walking_Trainers_02-01_Single-01.wav using Guid(afb86ce3664b09f4dbba2596781b3ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9447ab865c9d22b454e8ce1ce89e8987') in 0.010969 seconds 
+  Import took 0.013660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/ANMLInsc_InsJ_Ambience_Cricket-Insect_06-01_LOOP.wav
+  artifactKey: Guid(12f3981d6b7920b41ad91c23e1b49047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/ANMLInsc_InsJ_Ambience_Cricket-Insect_06-01_LOOP.wav using Guid(12f3981d6b7920b41ad91c23e1b49047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00e193925aebe98adcad7b9d13bb94e') in 0.010300 seconds 
+  Import took 0.013048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/ANMLDog_InsJ_Fox_Vocal-Cry_Distant_01-01.wav
+  artifactKey: Guid(a47a6c5c0b57b2d469b31e5db9b151fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/ANMLDog_InsJ_Fox_Vocal-Cry_Distant_01-01.wav using Guid(a47a6c5c0b57b2d469b31e5db9b151fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1664816de8468846a017589ed68be34a') in 0.010225 seconds 
+  Import took 0.012567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/MUSCChim_InsJ_Hand-Bell_01-16_High-C.wav
+  artifactKey: Guid(374f9d3b5620719408ea03778e8dc0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/MUSCChim_InsJ_Hand-Bell_01-16_High-C.wav using Guid(374f9d3b5620719408ea03778e8dc0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645d96c212efe970690f0956a86ba10b') in 0.011119 seconds 
+  Import took 0.013405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/GLASCrsh_InsJ_Glass_Shards_Dropping_Close_01-01.wav
+  artifactKey: Guid(36a8b7193377acf44a5c6ba0dbae1779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/GLASCrsh_InsJ_Glass_Shards_Dropping_Close_01-01.wav using Guid(36a8b7193377acf44a5c6ba0dbae1779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da22344891f0ec287f5dce58fdce5c0') in 0.010953 seconds 
+  Import took 0.013305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/AEROMisc_InsJ_Hot-Air-Balloon_Fire_01-01.wav
+  artifactKey: Guid(94b01adb9e48b2c429629cb9e912f95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/AEROMisc_InsJ_Hot-Air-Balloon_Fire_01-01.wav using Guid(94b01adb9e48b2c429629cb9e912f95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fcae02978e73700709cc6b35347cc93') in 0.010245 seconds 
+  Import took 0.012552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/MACHOffi_InsJ_Machine-01_Turning-Off_01.wav
+  artifactKey: Guid(7495c98f26961e441aa45d80fab397be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/MACHOffi_InsJ_Machine-01_Turning-Off_01.wav using Guid(7495c98f26961e441aa45d80fab397be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616a308d8a2bbbe44d483a78a010539c') in 0.011005 seconds 
+  Import took 0.013395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/MECHSwtch_InsJ_Switch_Plastic_Organ-Stops_Multi_01.wav
+  artifactKey: Guid(867bd21a8f297d248b1b12c24f1a37d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/MECHSwtch_InsJ_Switch_Plastic_Organ-Stops_Multi_01.wav using Guid(867bd21a8f297d248b1b12c24f1a37d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec34976491591bddfd3e2cdd8344d70') in 0.012256 seconds 
+  Import took 0.014818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/FEETHmn_InsJ_Footsteps_Carpet_Jogging_Trainers_01-01_Single-01.wav
+  artifactKey: Guid(0945b72b3fde78e41b2d01139ecee2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/FEETHmn_InsJ_Footsteps_Carpet_Jogging_Trainers_01-01_Single-01.wav using Guid(0945b72b3fde78e41b2d01139ecee2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a0c003d1e03c3a8bc6e0a904623a57') in 0.010355 seconds 
+  Import took 0.012770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/AMBTech_InsJ_Spaceship_Engine-Ambience_Interior_01-01_WET.wav
+  artifactKey: Guid(ec7fd3eed0d7f6448a8ebe8feb67919a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/AMBTech_InsJ_Spaceship_Engine-Ambience_Interior_01-01_WET.wav using Guid(ec7fd3eed0d7f6448a8ebe8feb67919a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0946d343c6f3b4dd3c4f5e3e44fee0d9') in 0.014739 seconds 
+  Import took 0.017100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/WATRFlow_InsJ_Stream_Water_01_LOOP.wav
+  artifactKey: Guid(89b16bfd82038a546af1843006e3cfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/WATRFlow_InsJ_Stream_Water_01_LOOP.wav using Guid(89b16bfd82038a546af1843006e3cfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb88b955e5a1c6538d6b6aba0532a845') in 0.011594 seconds 
+  Import took 0.013883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/BELLMisc_InsJ_Bell_Small_Close_01-01.wav
+  artifactKey: Guid(37ac6c8afb144cc4fa4608c3ab51ecb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/BELLMisc_InsJ_Bell_Small_Close_01-01.wav using Guid(37ac6c8afb144cc4fa4608c3ab51ecb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c755cae03ac017d173ce73f9a28cb05') in 0.009948 seconds 
+  Import took 0.012331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000614 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/COMCell_InsJ_Phone_Digital_Ringing_01-01_LOOP.wav
+  artifactKey: Guid(d2717153103eb8d4fa8bb3f9072f8d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/COMCell_InsJ_Phone_Digital_Ringing_01-01_LOOP.wav using Guid(d2717153103eb8d4fa8bb3f9072f8d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a4c40681a91cf61abef96cc55efc96') in 0.010984 seconds 
+  Import took 0.013569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/UIMisc_InsJ_Dialogue-Text-Scrolling_Glitch_01-01_LOOP.wav
+  artifactKey: Guid(7ca74fdc589f42f4385d51ab6b62cc67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/UIMisc_InsJ_Dialogue-Text-Scrolling_Glitch_01-01_LOOP.wav using Guid(7ca74fdc589f42f4385d51ab6b62cc67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5641d8d8503761a88ec7a5b22cc91f67') in 0.010811 seconds 
+  Import took 0.013360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/THUN_InsJ_Thunder_Close_Rain_01.wav
+  artifactKey: Guid(eb5c08ef9f0415147a27e5035b2d69ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/THUN_InsJ_Thunder_Close_Rain_01.wav using Guid(eb5c08ef9f0415147a27e5035b2d69ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f350a01b0a45a89b5884fd7e127121') in 0.012394 seconds 
+  Import took 0.014703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/FEETHmn_InsJ_Footsteps_Ceramic_Jogging_Trainers_01-01_Single-01.wav
+  artifactKey: Guid(2dfb5bdbfa70cb4449cb0336cb7fa8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/FEETHmn_InsJ_Footsteps_Ceramic_Jogging_Trainers_01-01_Single-01.wav using Guid(2dfb5bdbfa70cb4449cb0336cb7fa8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d5a60e438a3d9cd6ae523d282f5d5a') in 0.013276 seconds 
+  Import took 0.015734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/ANMLInsc_InsJ_Buzzing_Bee_Single_Very-Short_01-01.wav
+  artifactKey: Guid(8a7be74d657c57944b0e60abe511cc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/ANMLInsc_InsJ_Buzzing_Bee_Single_Very-Short_01-01.wav using Guid(8a7be74d657c57944b0e60abe511cc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f77fe2b50d7a638f4b0a58c9c00d9bb') in 0.013065 seconds 
+  Import took 0.015505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/96 General Library (Free Sample)/Samples/MOTRSrvo_InsJ_RC-Car_Revving_Close_Long_01-01.wav
+  artifactKey: Guid(f7c6d7cf7f89e9148af01dc2d8d1fb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/Samples/MOTRSrvo_InsJ_RC-Car_Revving_Close_Long_01-01.wav using Guid(f7c6d7cf7f89e9148af01dc2d8d1fb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8a3dc7491c067eb573d13dc3155b1c') in 0.013816 seconds 
+  Import took 0.016401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.333823 seconds.
+  path: Assets/96 General Library (Free Sample)/README - 96 General Library (Samples).pdf
+  artifactKey: Guid(5b4ad734af6e67145b98a4caf987b601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/README - 96 General Library (Samples).pdf using Guid(5b4ad734af6e67145b98a4caf987b601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c092150534fae02b7363efa8d44f14') in 0.011610 seconds 
+  Import took 0.014233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.799312 seconds.
+  path: Assets/96 General Library (Free Sample)/SOUND LIST - 96 General Library (Samples).pdf
+  artifactKey: Guid(fa20094319352964abffa0aaabfdf526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/96 General Library (Free Sample)/SOUND LIST - 96 General Library (Samples).pdf using Guid(fa20094319352964abffa0aaabfdf526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a051f18ec464e233830420363be78ff9') in 0.008912 seconds 
+  Import took 0.011586 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

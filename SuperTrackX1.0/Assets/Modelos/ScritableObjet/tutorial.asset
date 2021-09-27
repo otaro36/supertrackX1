@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 596300751312acb428addcff421213fe, type: 3}
   m_Name: tutorial
   m_EditorClassIdentifier: 
-  q: 1
+  q: 0
+  n: 2

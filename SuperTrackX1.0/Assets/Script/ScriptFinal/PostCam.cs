@@ -2,91 +2,227 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
+using UnityEngine.UI;
 
 public class PostCam : MonoBehaviour
-{
-    //public GameObject[] InfoCar;
-    //camaras de repisas 
-    public GameObject camara_seleccionREP;
-    //menu principal
-    public GameObject canvas_camara_principal;
-    public GameObject camara_principal;
-    public GameObject camara_grua;
-    public GameObject camara_pistas;
-    [Range(0, 100)] public float movimientoCam;
-    public bool verificacion;
-    public SelecionCarro infocar;
-    public SeleccionPista pista;
-    public SeleccionTaller i;
+{   // gameobject camaras
+    public CamarasPricipales camarasPrincipales;
+    [System.Serializable]
+    public class CamarasPricipales 
+    { 
+        public GameObject camara_Garage;
+        public GameObject camara_Principal;
+        public GameObject camara_Taller;
+        public GameObject camara_Pistas;
+    }
+    
+    public Botones botones;
+    [System.Serializable]
+    public class Botones
+    {
+        //gameobject canvas
+    
+        public GameObject anterior;
+        public GameObject siguiente;
+        public GameObject seleccionar;
+        public GameObject botonConstrucion;
+        public GameObject botonCiudad;
+        public GameObject botonRally;
+        public GameObject botonRace;
+        public GameObject botonPintura;
+        public GameObject botonGrua;
+        public GameObject botonJugar;
+        public Button botonGarage;
+        public Button botonPista;
+        public Button botonTaller;
+        public Button buttonRegreso;
+    }
+    public InstanciCarro scriObject;
+    [System.Serializable]
+    public class ScriObject
+    {
+        public InstanciCarro selecionCarro;
+    }
+    //posicion camara en repisa
+    public Transform[] poscampist;
+    public Transform[] posCm;
+    public Transform[] poscamtaller;
+    public GameObject[] insCar;
+    public int x;
+    public int i;
+    public int vehiculo;
+    public int pistas;
+    public int tallers;
 
-  
-    public int aa;
-    public int menu_inicio;
-    public int priority;
-    public int y;
     void Start()
     {
-        camara_principal.GetComponent<CinemachineVirtualCamera>().Priority = priority+1;
+        camarasPrincipales.camara_Principal.GetComponent<CinemachineVirtualCamera>().Priority = 2;
     }
     void Update()
     {
-        if (aa==1539)//Repisas
+        switch (scriObject.seleccion)
         {
-            camara_seleccionREP.SetActive(true);
-            infocar.x = 0;
-            
-            canvas_camara_principal.SetActive(false);   
-            camara_seleccionREP.GetComponent<CinemachineVirtualCamera>().Priority = 2000;
-            camara_principal.GetComponent<CinemachineVirtualCamera>().Priority = 1;
-            camara_grua.GetComponent<CinemachineVirtualCamera>().Priority = 1;
-            camara_pistas.GetComponent<CinemachineVirtualCamera>().Priority = 1;
-            aa = 0;
+            case 0:
+                insCar[0].SetActive(true);
+                insCar[1].SetActive(false);
+                break;
+            case 1:
+                insCar[0].SetActive(false);
+                insCar[1].SetActive(true);
+                break;
         }
-        else if (aa==1540)//Grua
-        {
-            camara_grua.SetActive(true);
-            //i.i = 0;
-            i.canvasTaller.SetActive(true);
-            canvas_camara_principal.SetActive(false);
-            camara_grua.GetComponent<CinemachineVirtualCamera>().Priority = 2000;
-            camara_seleccionREP.GetComponent<CinemachineVirtualCamera>().Priority =1;
-            camara_principal.GetComponent<CinemachineVirtualCamera>().Priority = 1;
-            camara_pistas.GetComponent<CinemachineVirtualCamera>().Priority = 1;
-            aa = 0;
-        }
-        else if (aa==1541)//Pistas
-        {
-            camara_pistas.SetActive(true);
-            canvas_camara_principal.SetActive(false);
-            pista.i = 1;
-            camara_pistas.GetComponent<CinemachineVirtualCamera>().Priority =2000;
-            camara_grua.GetComponent<CinemachineVirtualCamera>().Priority = 1;
-            camara_seleccionREP.GetComponent<CinemachineVirtualCamera>().Priority = 1;
-            camara_principal.GetComponent<CinemachineVirtualCamera>().Priority = 1;
-            aa = 0;
-        }
-        else if (aa == 1542)//Menu Principal
-        {
-            canvas_camara_principal.SetActive(true);
-            camara_grua.SetActive(false);
-            camara_pistas.SetActive(false);
-            camara_seleccionREP.SetActive(false);
-            infocar.InfoCar[y].SetActive(false);
-            i.canvasTaller.SetActive(false);
-            //pista.i = -1;
-            camara_principal.GetComponent<CinemachineVirtualCamera>().Priority = 2000;
-            camara_seleccionREP.GetComponent<CinemachineVirtualCamera>().Priority = 1;
-            camara_grua.GetComponent<CinemachineVirtualCamera>().Priority = 1;
-            camara_pistas.GetComponent<CinemachineVirtualCamera>().Priority = 1;
-            aa = 0;
-        }
+        camarasPrincipales.camara_Garage.transform.position = Vector3.Lerp(camarasPrincipales.camara_Garage.transform.position, posCm[x].position, 2 * Time.deltaTime);
+        camarasPrincipales.camara_Garage.transform.rotation = Quaternion.Lerp(camarasPrincipales.camara_Garage.transform.rotation, posCm[x].rotation, 2 * Time.deltaTime);
+
+        camarasPrincipales.camara_Pistas.transform.position = Vector3.Lerp(camarasPrincipales.camara_Pistas.transform.position, poscampist[pistas].position, 2 * Time.deltaTime);
+        camarasPrincipales.camara_Pistas.transform.rotation = Quaternion.Lerp(camarasPrincipales.camara_Pistas.transform.rotation, poscampist[pistas].rotation, 2 * Time.deltaTime);
+
+        camarasPrincipales.camara_Taller.transform.position = Vector3.Lerp(camarasPrincipales.camara_Taller.transform.position, poscamtaller[tallers].position, 2 * Time.deltaTime);
+        camarasPrincipales.camara_Taller.transform.rotation = Quaternion.Lerp(camarasPrincipales.camara_Taller.transform.rotation, poscamtaller[tallers].rotation, 2 * Time.deltaTime);
     }
-    public void Centrar(int a)
+    public void Centrar(int menuPrincipal)
     {
-        aa = a;
+        switch (menuPrincipal)
+        {
+            case 1539:
+                StartCoroutine("Garage");
+                break;
+            case 1540:
+                StartCoroutine("Taller");
+                break;
+            case 1541:
+                StartCoroutine("Pistas");
+                break;
+            case 1542:
+                StartCoroutine("MenuPrincipal");
+                break;
+        }
     }
-    public void Volver(int a)
+    public void VehiculosActivo ()
     {
-        y= a;
+        scriObject.seleccion = x;
     }
+    IEnumerator Garage()
+    {
+        botones.botonTaller.interactable = false;
+        botones.botonPista.interactable = false;
+        botones.buttonRegreso.interactable = false;
+        botones.botonJugar.SetActive(false);
+        botones.botonPintura.SetActive(false);
+        botones.botonGrua.SetActive(false);
+        botones.botonCiudad.SetActive(false);
+        botones.botonConstrucion.SetActive(false);
+        botones.botonRace.SetActive(false);
+        botones.botonRally.SetActive(false);
+        yield return new WaitForSecondsRealtime(0.2f);
+        camarasPrincipales.camara_Garage.SetActive(true);
+        camarasPrincipales.camara_Garage.GetComponent<CinemachineVirtualCamera>().Priority = 2;
+        camarasPrincipales.camara_Taller.GetComponent<CinemachineVirtualCamera>().Priority = 1;
+        camarasPrincipales.camara_Pistas.GetComponent<CinemachineVirtualCamera>().Priority = 1;
+        camarasPrincipales.camara_Principal.GetComponent<CinemachineVirtualCamera>().Priority = 1;
+        yield return new WaitForSecondsRealtime(2f);
+        botones.botonTaller.interactable = true;
+        botones.botonPista.interactable = true;
+        botones.buttonRegreso.interactable = true;
+        botones.seleccionar.SetActive(true);
+        botones.anterior.SetActive(true);
+        botones.siguiente.SetActive(true);
+    }
+    IEnumerator Taller()
+    {
+        tallers = 0;
+        botones.botonPista.interactable = false;
+        botones.botonGarage.interactable = false;
+        botones.buttonRegreso.interactable = false;
+        botones.botonJugar.SetActive(false);
+        botones.seleccionar.SetActive(false);
+        botones.botonCiudad.SetActive(false);
+        botones.botonConstrucion.SetActive(false);
+        botones.botonRace.SetActive(false);
+        botones.botonRally.SetActive(false);
+        botones.anterior.SetActive(false);
+        botones.siguiente.SetActive(false);
+        yield return new WaitForSecondsRealtime(0.2f);
+        camarasPrincipales.camara_Taller.SetActive(true);
+        camarasPrincipales.camara_Taller.GetComponent<CinemachineVirtualCamera>().Priority = 2;
+        camarasPrincipales.camara_Pistas.GetComponent<CinemachineVirtualCamera>().Priority = 1;
+        camarasPrincipales.camara_Principal.GetComponent<CinemachineVirtualCamera>().Priority = 1;
+        camarasPrincipales.camara_Garage.GetComponent<CinemachineVirtualCamera>().Priority = 1;
+        yield return new WaitForSecondsRealtime(2f);
+        botones.botonPista.interactable = true;
+        botones.botonGarage.interactable = true;
+        botones.buttonRegreso.interactable = true;
+        botones.botonPintura.SetActive(true);
+        botones.botonGrua.SetActive(true);
+    }
+    IEnumerator Pistas()
+    {
+        botones.botonTaller.interactable = false;
+        botones.botonGarage.interactable = false;
+        botones.buttonRegreso.interactable = false;
+        botones.seleccionar.SetActive(false);
+        botones.botonPintura.SetActive(false);
+        botones.botonGrua.SetActive(false);
+        botones.anterior.SetActive(false);
+        botones.siguiente.SetActive(false);
+        yield return new WaitForSecondsRealtime(0.2f);
+        camarasPrincipales.camara_Pistas.GetComponent<CinemachineVirtualCamera>().Priority = 2;
+        camarasPrincipales.camara_Garage.GetComponent<CinemachineVirtualCamera>().Priority = 1;
+        camarasPrincipales.camara_Taller.GetComponent<CinemachineVirtualCamera>().Priority = 1;
+        camarasPrincipales.camara_Principal.GetComponent<CinemachineVirtualCamera>().Priority = 1;
+        yield return new WaitForSecondsRealtime(2f);
+        botones.botonTaller.interactable = true;
+        botones.botonGarage.interactable = true;
+        botones.buttonRegreso.interactable = true;
+        botones.botonJugar.SetActive(true);
+        botones.botonCiudad.SetActive(true);
+        botones.botonConstrucion.SetActive(true);
+        botones.botonRace.SetActive(true);
+        botones.botonRally.SetActive(true);
+    }
+    IEnumerator MenuPrincipal()
+    {
+        botones.botonJugar.SetActive(false);
+        botones.seleccionar.SetActive(false);
+        botones.botonPintura.SetActive(false);
+        botones.botonGrua.SetActive(false);
+        botones.botonCiudad.SetActive(false);
+        botones.botonConstrucion.SetActive(false);
+        botones.botonRace.SetActive(false);
+        botones.botonRally.SetActive(false);
+        botones.anterior.SetActive(false);
+        botones.siguiente.SetActive(false);
+        botones.buttonRegreso.interactable = false;
+        yield return new WaitForSecondsRealtime(0.2f);
+        camarasPrincipales.camara_Principal.GetComponent<CinemachineVirtualCamera>().Priority = 2;
+        camarasPrincipales.camara_Garage.GetComponent<CinemachineVirtualCamera>().Priority = 1;
+        camarasPrincipales.camara_Taller.GetComponent<CinemachineVirtualCamera>().Priority = 1;
+        camarasPrincipales.camara_Pistas.GetComponent<CinemachineVirtualCamera>().Priority = 1;
+    }
+    public void RepisaSiguiente()
+    {
+        x++;
+        print(x);
+        if (x == 10)
+        {
+            x = 0;
+        }
+    }
+    public void RepisaAnterior()
+    {
+        x--;
+        if (x < 0)
+        {
+            x = 9;
+        }
+    }
+    public void Pista (int pista)
+    {
+        pistas = pista;
+    }
+    public void Taller(int taller)
+    {
+        tallers = taller;
+    }
+
 }

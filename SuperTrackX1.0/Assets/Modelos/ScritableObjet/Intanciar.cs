@@ -6,7 +6,6 @@ public class Intanciar : MonoBehaviour
 {
     public InstanciCarro selecionCarro;
     public GameObject[] insCar;
-    public GameObject punto_instancia;
     public int z;
     public int y;
 
